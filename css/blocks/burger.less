@@ -1,0 +1,25 @@
+// main: ../style.less
+
+.burger {
+    color: @black;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+
+    i {
+        position: absolute;
+        top: 0.9rem;
+        right: 1rem;
+        font-size: 2rem;
+        color: @black;
+        transition: transform 0.3s linear;
+    }
+
+    &:hover i {
+        transform: scale(1.1);
+    }
+
+    @media @mobile {
+        display: block;
+    }
+}

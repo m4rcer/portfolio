@@ -1,0 +1,37 @@
+// main: ../style.css
+
+.form__group {
+    margin-bottom: 1.8rem;
+}
+
+.form__input,
+.form__textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(#707070, 0.3);
+
+    border-radius: 1.8rem;
+    padding: 1.3rem 1.8rem;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: @black;
+
+    &::placeholder {
+        color: @black;
+    }
+}
+
+.form__textarea {
+    height: 200px;
+    resize: none;
+}
+
+.form__label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: @black;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+}
